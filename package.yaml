@@ -1,0 +1,12 @@
+name : djv
+
+uuid : acf9ece0-a470-4bd8-b346-999f2060d50e
+
+description : "DJV Imaging provides professional movie playback software for film production."
+authors : [DJV Imaging]
+config_version : 0
+version : 1.0.5
+
+commands:
+- export PATH=$BD_SHARE/djv-view/!VERSION!/bin:$PATH
+- export LD_LIBRARY_PATH=$BD_SHARE/djv-view/!VERSION!/lib:$LD_LIBRARY_PATH
