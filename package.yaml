@@ -8,5 +8,5 @@ config_version : 0
 version : 1.0.5
 
 commands:
-- export PATH=$BD_SHARE/djv-view/!VERSION!/bin:$PATH
-- export LD_LIBRARY_PATH=$BD_SHARE/djv-view/!VERSION!/lib:$LD_LIBRARY_PATH
+- export PATH=$BD_SOFTS/djv-view/!VERSION!/bin:$PATH
+- export LD_LIBRARY_PATH=$BD_SOFTS/djv-view/!VERSION!/lib:$LD_LIBRARY_PATH
